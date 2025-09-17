@@ -1,4 +1,4 @@
-// models/Appointment.ts
+
 import mongoose from "mongoose";
 
 const AppointmentSchema = new mongoose.Schema({

@@ -63,7 +63,7 @@ export default function AdminPage() {
               key={a._id}
               className="bg-white shadow-md rounded-lg p-5 border hover:shadow-lg transition"
             >
-              {/* Header */}
+        
               <div className="flex justify-between items-center mb-2">
                 <h2 className="text-xl font-semibold text-blue-700">{a.name}</h2>
                 <span className="text-sm text-gray-500">
@@ -71,7 +71,7 @@ export default function AdminPage() {
                 </span>
               </div>
 
-              {/* Details */}
+            
               <p className="text-gray-700">
                 📅 <strong>Date:</strong> {a.date}
               </p>
@@ -82,7 +82,7 @@ export default function AdminPage() {
                 📝 <strong>Description:</strong> {a.description || "No details provided"}
               </p>
 
-              {/* Actions */}
+              
               <button
                 onClick={() => handleDelete(a._id)}
                 className="mt-4 w-full bg-red-600 text-white py-2 rounded hover:bg-red-700 transition"

@@ -14,12 +14,12 @@ export default function Navbar() {
   return (
     <nav className="bg-blue-600 text-white px-6 py-3 shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-        {/* Logo / Title */}
+        
         <Link href="/" className="text-xl font-bold tracking-wide">
           🗓️ Scheduler
         </Link>
 
-        {/* Links */}
+    
         <ul className="flex gap-6">
           {navItems.map((item) => (
             <li key={item.href}>
